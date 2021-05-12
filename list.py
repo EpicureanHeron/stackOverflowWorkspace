@@ -2,7 +2,7 @@
 
 board2 =[0,0,0,0,0,0,0,0,0]
 inp = input('Input Number 0-8:')
-if int(inp) in range(0, 9):
+if 0 <= int(inp) < len(board2):
     board2[int(inp)] = 1
 print(board2)
     
