@@ -1,0 +1,10 @@
+
+
+oo = ('remove', '', [('we are here to help you improve your skills', [['2021-04-09', 'email@example.com', 'we are here to help you improve your skills', 'Delivered']]), ('(1st meeting) here is our recorded presentation skills webinar', [['2021-04-12', 'email@example.com', '(1st meeting) here is our recorded presentation skills webinar', 'Delivered']]), ('YOU ARE INVITED TO THIS PROGRAMMING EVENT', [['2021-04-13', 'email@example.com', 'YOU ARE INVITED TO THIS PROGRAMMING EVENT', 'Delivered'], ['2021-04-16', 'email@example.com', 'YOU ARE INVITED TO THIS PROGRAMMING EVENT', 'Delivered']])])
+('remove', '', [('we are here to help you improve your skills', [['2021-04-09', 'email@example.com', 'we are here to help you improve your skills', 'Delivered']]), ('(1st meeting) here is our recorded presentation skills webinar', [['2021-04-12', 'email@example.com', '(1st meeting) here is our recorded presentation skills webinar', 'Delivered']]), ('YOU ARE INVITED TO THIS PROGRAMMING EVENT', [['2021-04-13', 'email@example.com', 'YOU ARE INVITED TO THIS PROGRAMMING EVENT', 'Delivered'], ['2021-04-16', 'email@example.com', 'YOU ARE INVITED TO THIS PROGRAMMING EVENT', 'Delivered']])])
+('remove', '', [('we are here to help you improve your skills', [['2021-04-09', 'email@example.com', 'we are here to help you improve your skills', 'Delivered']]), ('(1st meeting) here is our recorded presentation skills webinar', [['2021-04-12', 'email@example.com', '(1st meeting) here is our recorded presentation skills webinar', 'Delivered']]), ('YOU ARE INVITED TO THIS PROGRAMMING EVENT', [['2021-04-13', 'email@example.com', 'YOU ARE INVITED TO THIS PROGRAMMING EVENT', 'Delivered'], ['2021-04-16', 'email@example.com', 'YOU ARE INVITED TO THIS PROGRAMMING EVENT', 'Delivered']])])
+
+
+for x in oo[2]:
+    for y in x[1]: 
+        print(y)
