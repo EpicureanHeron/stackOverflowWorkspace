@@ -16,7 +16,7 @@ for x in range(1):
     page_soup = soup(page_html, "html.parser")
    
     filename = file_name + ".csv"
-    f = open(filename, "w") 
+    f = open(filename, "w") git 
     headers = "product \n"
     f.write(headers)
   
