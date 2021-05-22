@@ -11,6 +11,6 @@ for dictionary in tax:
     aggregated_data[key] = aggregated_data.get(key, 0) + dictionary['amount']
     
 
-    tax = [{'taxType': key, 'amount': value} for key, value in aggregated_data.items()]
+tax = [{'taxType': key, 'amount': value} for key, value in aggregated_data.items()]
 
 print(tax)
