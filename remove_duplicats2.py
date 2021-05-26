@@ -2,7 +2,6 @@ text = "Conscious of its spiritual and moral heritage, the Union is founded on t
 
 words = []
 
-
 def get_unique_words(text):
     # converts all alphabetical characters to lower
     lower_text = text.lower()
@@ -18,7 +17,6 @@ def get_unique_words(text):
             # append the word if it is unique
             results_list.append(word)
     return results_list
-
 
 results = get_unique_words(text)
 
