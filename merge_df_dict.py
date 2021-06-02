@@ -5,8 +5,8 @@ other_df = pd.DataFrame(columns=['RawData'], data=[['123XXX FooBar'], ['456XXX M
 
 other_df['prefix'] = other_df['RawData'].str.slice(0, 3)
 
-merged_df = main_df.merge(other_df, left_on = 'ID', right_on='prefix', how='left')
+main_df  = main_df.merge(other_df, left_on = 'ID', right_on='prefix', how='left')
 
-merged_df = merged_df.drop(columns='prefix')
+main_df  = main_df.drop(columns='prefix')
 
-print(merged_df)
+print(main_df)
