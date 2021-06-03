@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<smil systemRequired="pss6"
+    xmlns="http://www.w3.org/2001/SMIL20/Language"
+    xmlns:pss6="http://www.3gpp.org/SMIL20/PSS6/">
+    <head>
+        <meta id="meta-smil1.0-a" name="Publisher" content="OMA"/>
+        <layout>
+            <root-layout width="100%" height="100%"/>
+            <region id="UP" top="0%" left="0%" height="50%" width="100%" fit="meet" backgroundColor="white"/>
+            <region id="DOWN" top="50%" left="0%" height="50%" width="100%" fit="meet" backgroundColor="white"/>
+            <region id="FULL" top="0%" left="0%" height="100%" width="100%" fit="meet" backgroundColor="white"/>
+        </layout>
+    </head>
+    <body>
+        <par index="0" dur="10" size="3326">
+            <img src="f5d226a7-487f-4038-8051-d9382acde16f" region="DOWN" fill="freeze" size="3310"/>
+            <text src="tess" region="UP" size="16"/>
+        </par>
+        <par index="1" dur="10" size="19534">
+            <img src="7556e55d-52c7-4807-9034-d6abee06ce67" region="DOWN" fill="freeze" size="2796"/>
+            <text src="bigno" region="UP" size="20"/>
+            <audio src="84620751-25db-4db9-b361-43a3dfd70f21" size="16718"/>
+        </par>
+    </body>
+</smil>
