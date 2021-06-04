@@ -6,10 +6,13 @@ aquatic = ["fish","eel","whale"]
 
 animal_list = [mammal, amphibian, aquatic]
 
-list_of_lists = [animal_list[x] for x in range(0, len(animal_list))]
 
-list_of_lists.append(['eagle'])
+animal_list.append(['eagle'])
 
-print(list_of_lists)
+print(animal_list)
 
-print(list_of_lists[2][2])
+print(animal_list[2][2])
+
+np_animal_list = np.array(animal_list)
+
+print(np_animal_list[2][2])
