@@ -1,4 +1,6 @@
-controle
-CLES, ''
-entree, 4 cles entrees
-entree 2, 1 cle entree port batiment
+Code,Description,Mapping
+701,U.S. Postal,Shipping and Courier
+742,Veterinary Services,Lodging - Other
+763,Agricultural Cooperative,Lodging - Other
+763,Agricultural Supplies,Office Supplies
+780,Landscaping Services,Lodging - Other
