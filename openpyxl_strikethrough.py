@@ -10,7 +10,8 @@ remove_strike = Font(strike=False)
 
 
 for value in sheet:
-    for row in value:
-        row.font = remove_strike
+    for cell in value:
+       if cell.font.strike!=None:
+            print(cell.value)
 
-wb.save(filename='test2.xlsx')
+# wb.save(filename='test2.xlsx')
